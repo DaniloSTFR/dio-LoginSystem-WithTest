@@ -26,8 +26,11 @@ namespace LoginSystem.Models
         [Column("password")]
         public string Password { get; set; }
 
-        [Column("dateCreate")]
-        public DateTime DateCreate { get; set; }
+        [Column("birthDate")]
+        public DateTime BirthDate { get; set; }
+
+        [Column("CreationDate")]
+        public DateTime CreationDate { get; set; }
         
     }
 }
